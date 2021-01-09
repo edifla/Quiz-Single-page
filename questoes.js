@@ -12,6 +12,7 @@ let Cradio = document.getElementById('terceira-alternativa')
 let Dradio = document.getElementById('quarta-alternativa')
 let Eradio = document.getElementById('quinta-alternativa')
 let button = document.getElementById('button')
+let limparRadio = document.getElementsByName("respostas");
 let perguntaAtual;
 let pos;
 let acertos = 0
@@ -209,11 +210,8 @@ function refreshScreen() {
         setTimeout(function () {
             timer.style.animation = "";
         }, 100);
-        Aradio.checked = 'false';
-        Bradio.checked = 'false';
-        Cradio.checked = 'false';
-        Dradio.checked = 'false';
-        Eradio.checked = 'false';
+        for(var i=0;i<limparRadio.length;i++)
+        limparRadio[i].checked = false;
         setTimeout(function () {
             erros++
             refreshScreen()
