@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <div id="letreiro"></div>
+    
+    <div class="quiz">
+    <h1 id="titulo">Vamos começar?</h1>
+    <p id="pergunta">Seja bem vindo ao meu Quiz,para começar clique em Iniciar</p>
+
+    <input type="radio" id="primeira-alternativa" name="respostas" value="letraA">
+    <label for="primeira-alternativa" id="A-texto"></label><br>
+
+    <input type="radio" id="segunda-alternativa" name="respostas" value="letraB">
+    <label for="segunda-alternativa" id="B-texto"></label><br>
+
+    <input type="radio" id="terceira-alternativa" name="respostas" value="letraC">
+    <label for="terceira-alternativa" id="C-texto"></label><br>   
+
+    <input type="radio" id="quarta-alternativa" name="respostas" value="letraD">
+    <label for="quarta-alternativa" id="D-texto"></label><br>
+
+    <input type="radio" id="quinta-alternativa" name="respostas" value="letraE">
+    <label for="quinta-alternativa" id="E-texto"></label><br>
+
+    <div id="botao-caixa"><button onclick="comecar()" id="button">Iniciar</button></div>
+    </div>
+    
+    <script src="questoes.js"></script>
+</body>
+</html>
