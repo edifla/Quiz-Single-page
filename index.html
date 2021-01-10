@@ -11,7 +11,7 @@
     
     <div class="quiz">
     <h1 id="titulo">Vamos começar?</h1>
-    <p id="pergunta">Seja bem vindo ao meu Quiz,para começar clique em Iniciar</p>
+    <p id="pergunta">Seja bem vindo(a) ao meu Quiz, para começar clique em Iniciar</p>
 
     <input type="radio" id="primeira-alternativa" name="respostas" value="letraA">
     <label for="primeira-alternativa" id="A-texto"></label><br>
@@ -31,6 +31,14 @@
     <div id="botao-caixa"><button onclick="comecar()" id="button">Iniciar</button></div>
     </div>
     
+    <div class="informacoes" id="info">
+        <ul>
+        <li>O tempo para responder cada pergunta é de 3m</li>
+        <li>Caso não responda em 3m sera considerado que você errou e passaremos para a próxima</li>
+        <li>As questões foram retiradas de provas anteriores do enem, assim como seu gabarito</li>
+        <li>Leia com atenção e boa sorte &#x1F604</li>
+    </ul>
+    </div>
     <script src="questoes.js"></script>
 </body>
 </html>
