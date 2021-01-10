@@ -13,6 +13,7 @@ let Dradio = document.getElementById('quarta-alternativa')
 let Eradio = document.getElementById('quinta-alternativa')
 let button = document.getElementById('button')
 let limparRadio = document.getElementsByName("respostas");
+let aviso = document.getElementById('info')
 let perguntaAtual;
 let pos;
 let acertos = 0
@@ -193,6 +194,7 @@ function comecar() {
     Dradio.style.display = '';
     Eradio.style.display = '';
     timer.style.display = '';
+    info.style.display = "none"
     randomizar()
     getAnswers()
     setTimeout(function () {
@@ -240,13 +242,13 @@ function telaFinal() {
     titulo.style.textAlign = "center";
     titulo.style.marginTop = "30px"
     pergunta.style.textAlign ="center"
-    pergunta.innerHTML = "Voce será redirecionado para a página inicial em instantes."
+    pergunta.innerHTML = "Voce será redirecionado para a página final em instantes."
     setTimeout(function () {
-        titulo.innerHTML = "Obrigado por jogar o Quiz "
-        pergunta.innerHTML = "Para recomeçar, atualize a página!"
-      
-
-    }, 30000);
+        titulo.innerHTML = "Obrigado"
+        pergunta.innerHTML = "Obrigado por jogar o quiz, desejo boa sorte na sua prova e que você consiga a pontuação que precisa. Se quiser jogar o quiz novamente, baste recarregar a página."
+        pergunta.style.textAlign = "center"
+        pergunta.style.padding = "20px 30px"
+    }, 10000);
 }
 function getAnswers() {
     switch (perguntaAtual) {
