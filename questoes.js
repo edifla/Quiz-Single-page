@@ -51,7 +51,25 @@ const questoes = [
     
     "Estima-se que no Brasil mais de 20% da população tenha algum tipo de dificuldade de locomoção, seja por deficiência física, motora, sensorial ou mesmo por uma condição específica transitória. Para que essa parcela da população exerça plenamente o seu direito constitucional de ir e vir, os sistemas de transporte têm de apresentar características adequadas de acessibilidade, dentro dos conceitos do desenho universal. No meio urbano, o atendimento da proposta de inclusão social apresentada no texto demanda um conjunto de intervenções técnicas que promovam o(a)",
     
-    "O consumo da habitação, em especial aquela dotada de atributos especiais no espaço urbano, contribui para o entendimento do fenômeno, pois certas áreas tornam-se alvos de operações comerciais de prestígio com a produção e/ou a renovação de construções, diferente de outras porções da cidade, dotadas de menor infraestrutura. O conceito que define o processo descrito denomina-se"
+    "O consumo da habitação, em especial aquela dotada de atributos especiais no espaço urbano, contribui para o entendimento do fenômeno, pois certas áreas tornam-se alvos de operações comerciais de prestígio com a produção e/ou a renovação de construções, diferente de outras porções da cidade, dotadas de menor infraestrutura. O conceito que define o processo descrito denomina-se",
+
+    "O mármore, rocha metamórfica composta principalmente de carbonato de cálci (CaCO3), é muito utilizada como material de construção  também na produção de esculturas. Entretanto, s peças de mármore são expostas a ambientes externos particularmente em grandes cidades e zonas industriais elas sofrem ao longo do tempo um processo de desgaste caracterizado pela perda de massa da peça. Esse processo de deterioração ocorre e função da :",
+
+    "Um dos processos biotecnológicos mais antigos é a utilização de microrganismos para a produção de alimentos. Num desses processos, certos tipos de bactérias anaeróbicas utilizam os açúcares presentes nos alimentos e realizam sua oxidação parcial, gerando como produto final da reação o ácido lático. Qual produto destinado ao consumo humano tem sua produção baseada nesse processo",
+
+    "Pesquisadores descobriram que uma espécie de abelha sem ferrão nativa do Brasil — a mandaguari (Scaptotrigona depilis) — cultiva um fungo nos ninhos dentro da colmeia. Após observações, verificaram que a sobrevivência das larvas da abelha depende da ingestão de filamentos do fungo, que produz metabólitos secundários com ação antimicrobiana, antitumoral e imunológica, além da alimentação convencional. Por sua vez, o fungo depende da abelha para se reproduzir e garante a sua multiplicação ao longo das gerações. O uso de fungicida ocasionaria à colmeia dessa espécie o(a)",
+
+    "A conta de telefone de uma loja foi, nesse mês, de R$ 200,00. O valor da assinatura mensal, já incluso na conta, é de R$ 40,00, o qual dá direito a realizar uma quantidade ilimitada de ligações locais para telefones fixos. As ligações para celulares são tarifadas separadamente. Nessa loja, são feitas somente ligações locais, tanto para telefones fixos quanto para celulares. Para reduzir os custos, o gerente planeja, para o próximo mês, uma conta de telefone com valor de R$ 80,00. Para que esse planejamento se cumpra, a redução percentual com gastos em ligações para celulares nessa loja deverá ser de",
+
+    "Muitos restaurantes servem refrigerantes em copos contendo limão e gelo. Suponha um copo de formato cilíndrico, com as seguintes medidas: diâmetro = 6 cm e altura = 15 cm. Nesse copo, há três cubos de gelo, cujas arestas medem 2 cm cada, e duas rodelas cilíndricas de limão, com 4 cm de diâmetro e 0,5 cm de espessura cada. Considere que, ao colocar o refrigerante no copo, os cubos de gelo e os limões ficarão totalmente imersos. (Use 3 como aproximação para π). O volume máximo de refrigerante, em centímetro cúbico, que cabe nesse copo contendo as rodelas de limão e os cubos de gelo com suas dimensões inalteradas, é igual a",
+
+    "Em regiões desérticas, a obtenção de água potável não pode depender apenas da precipitação. Nesse sentido, portanto, sistemas para dessalinização da água do mar têm sido uma solução. Alguns desses sistemas consistem basicamente de duas câmaras (uma contendo água doce e outra contendo água salgada) separadas por uma membrana semipermeável. Aplicando-se pressão na câmara com água salgada, a água pura é forçada a passar através da membrana para a câmara contendo água doce. O processo descrito para a purificação da água é denominado",
+
+    "Um laudo de análise de laboratório apontou que amostras de leite de uma usina de beneficiamento estavam em desacordo com os padrões estabelecidos pela legislação. Foi observado que a concentração de sacarose era maior do que a permitida. Qual teste listado permite detectar a irregularidade descrita?",
+
+    "O ácido ricinoleico, um ácido graxo funcionalizado, cuja nomenclatura oficial é ácido D-(−)-12-hidroxioctadec-cis-9-enoico, é obtido da hidrólise ácida do óleo de mamona. As aplicações do ácido ricinoleico na indústria são inúmeras, podendo ser empregado desde a fabricação de cosméticos até a síntese de alguns polímeros. Para uma amostra de solução desse ácido, o uso de um polarímetro permite determinar o ângulo  ",
+
+    "Algumas espécies de orquídeas apresentam flores que mimetizam vespas fêmeas, de forma que vespas machos são atraídas na tentativa de acasalamento. Ao chegarem às flores, os machos frequentemente entram em contato com o pólen da flor, sem prejuízo de suas atividades. Contudo, como não conseguem se acasalar, esses machos procuram novas fêmeas, podendo encontrar novas flores e polinizá-las. Essa interação ecológica pode ser classificada como"
 ]
 const respostas = {
     respostas1 : [
@@ -172,6 +190,69 @@ const respostas = {
         "C) território nacional.",
         "D) especulação imobiliária.",
         "E) paisagem natural."
+    ],
+    respostas18 : [
+        "A) oxidação do mármore superficial pelo oxigênio.",
+        "B) decomposição do mármore pela radiação solar.",
+        "C) onda de choque provocada por ruídos externos.",
+        "D) abrasão por material particulado presente no ar",
+        "E) acidez da chuva que cai sobre a superfície da peça"
+    ],
+    respostas19 : [
+        "A) Pão.",
+        "B) Vinho.",
+        "C) Iogurte.",
+        "D) Vinagre.",
+        "E) Cachaça."
+    ],
+    respostas20 : [
+        "A) controle de pragas.",
+        "B) acúmulo de resíduos",
+        "C) ampliação de espaço.",
+        "D) redução da população.",
+        "E) incremento de alimento."
+    ],
+    respostas21 : [
+        "A) 25%",
+        "B) 40%",
+        "C) 50%",
+        "D) 60%",
+        "E) 75%"
+    ],
+    respostas22 : [
+        "A) 107.",
+        "B) 234.",
+        "C) 369.",
+        "D) 391.",
+        "E) 405."
+    ],
+    respostas23 : [
+        "A) filtração.",
+        "B) adsorção.",
+        "C) destilação",
+        "D) troca iônica",
+        "E) osmose reversa."
+    ],
+    respostas24 : [
+        "A) Medida da turbidez.",
+        "B) Determinação da cor.",
+        "C) Determinação do pH.",
+        "D) Medida da densidade",
+        "E) Medida da condutividade."
+    ],
+    respostas25 : [
+        "A) refração.",
+        "B) reflexão.",
+        "C) difração",
+        "D) giro levógiro.",
+        "E) giro destrógiro."
+    ],
+    respostas26 : [
+        "A) comensalismo.",
+        "B) amensalismo.",
+        "C) mutualismo",
+        "D) parasitismo.",
+        "E) simbiose."
     ]
 }
 Aradio.style.display = 'none';
@@ -388,6 +469,78 @@ function getAnswers() {
             D.innerHTML = respostas.respostas16[3]
             E.innerHTML = respostas.respostas16[4]
             break;
+            case perguntaAtual = questoes[17]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas17[0]
+            B.innerHTML = respostas.respostas17[1]
+            C.innerHTML = respostas.respostas17[2]
+            D.innerHTML = respostas.respostas17[3]
+            E.innerHTML = respostas.respostas17[4]
+            break;
+            case perguntaAtual = questoes[18]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas18[0]
+            B.innerHTML = respostas.respostas18[1]
+            C.innerHTML = respostas.respostas18[2]
+            D.innerHTML = respostas.respostas18[3]
+            E.innerHTML = respostas.respostas18[4]
+            break;
+            case perguntaAtual = questoes[19]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas19[0]
+            B.innerHTML = respostas.respostas19[1]
+            C.innerHTML = respostas.respostas19[2]
+            D.innerHTML = respostas.respostas19[3]
+            E.innerHTML = respostas.respostas19[4]
+            break;
+            case perguntaAtual = questoes[20]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas20[0]
+            B.innerHTML = respostas.respostas20[1]
+            C.innerHTML = respostas.respostas20[2]
+            D.innerHTML = respostas.respostas20[3]
+            E.innerHTML = respostas.respostas20[4]
+            break;
+            case perguntaAtual = questoes[21]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas21[0]
+            B.innerHTML = respostas.respostas21[1]
+            C.innerHTML = respostas.respostas21[2]
+            D.innerHTML = respostas.respostas21[3]
+            E.innerHTML = respostas.respostas21[4]
+            break;
+            case perguntaAtual = questoes[22]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas22[0]
+            B.innerHTML = respostas.respostas22[1]
+            C.innerHTML = respostas.respostas22[2]
+            D.innerHTML = respostas.respostas22[3]
+            E.innerHTML = respostas.respostas22[4]
+            break;
+            case perguntaAtual = questoes[23]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas23[0]
+            B.innerHTML = respostas.respostas23[1]
+            C.innerHTML = respostas.respostas23[2]
+            D.innerHTML = respostas.respostas23[3]
+            E.innerHTML = respostas.respostas23[4]
+            break;
+            case perguntaAtual = questoes[24]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas24[0]
+            B.innerHTML = respostas.respostas24[1]
+            C.innerHTML = respostas.respostas24[2]
+            D.innerHTML = respostas.respostas24[3]
+            E.innerHTML = respostas.respostas24[4]
+            break;
+            case perguntaAtual = questoes[25]:
+            pergunta.innerHTML = perguntaAtual
+            A.innerHTML = respostas.respostas25[0]
+            B.innerHTML = respostas.respostas25[1]
+            C.innerHTML = respostas.respostas25[2]
+            D.innerHTML = respostas.respostas25[3]
+            E.innerHTML = respostas.respostas25[4]
+            break;
         default:
             telaFinal()
             break;
@@ -583,6 +736,105 @@ function correcao() {
             break;
             case perguntaAtual = questoes[15]:
             if (Dradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[16]:
+            if (Eradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[17]:
+            if (Eradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[18]:
+            if (Cradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[19]:
+            if (Dradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[20]:
+            if (Eradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[21]:
+            if (Cradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;//
+            case perguntaAtual = questoes[22]:
+            if (Eradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[23]:
+            if (Dradio.checked) {
+                    pos = questoes.indexOf(perguntaAtual);
+                refreshScreen()
+                acertos++;
+            } else {
+                pos = questoes.splice(pos, 1);
+                refreshScreen()
+                erros++
+            }
+            break;
+            case perguntaAtual = questoes[24]:
+            if (Aradio.checked) {
                     pos = questoes.indexOf(perguntaAtual);
                 refreshScreen()
                 acertos++;
